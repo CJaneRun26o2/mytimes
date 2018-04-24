@@ -15,6 +15,7 @@ header {
 .logo span {color: mediumAquamarine;
     height: 17.6px;
     width: 73.9125px;
+    display: inline-block;
     }
 
 a {color: black;
