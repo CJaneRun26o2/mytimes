@@ -15,17 +15,17 @@ header {
 .logo span {color: mediumAquamarine;
     height: 17.6px;
     width: 73.9125px;
-    display: inline-block;
+    display: block;
     }
 
 a {color: black;
 }
 
-p {display: block;}
+p {display: block;
+}
 
 nav span {display: inline-block;
   padding: 20px 10px;
-
 }
 
 .logo img {width: 70px;
@@ -33,13 +33,30 @@ nav span {display: inline-block;
     margin-right: 12px;
   }
 
+.lead-story .image-content span {margin-left: 20px;
+}
+
+.image-content {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    color: white;
+}
+
 .lead-story .image-content {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
     width: 630px;
     margin-top: 0;
     font-size: 40px;
     text-align: left;
-
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia;
+    font-size: 40px;
+    font-weight: 700;
+    height: 300px;
+    justify-content: center;
 }
 
 .column-large {width: 630px;
