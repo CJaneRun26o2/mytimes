@@ -30,3 +30,19 @@ nav span {display: inline-block;
     height: 60px;
     margin-right: 12px;
   }
+
+.lead-story .image-content {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+    width: 630px;
+    margin-top: 0;
+    font-size: 40px;
+    text-align: left;
+    border: 3px black;
+}
+
+.column-large {width: 630px;
+    border: 3px black;}
+.column-medium {width: 300px;
+    border: 3px black;}
+.column-small {width: 240px;
+    border: 3px black;}
