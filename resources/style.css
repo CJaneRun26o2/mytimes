@@ -13,13 +13,15 @@ header {display: flex;
 
 .logo span {color: mediumAquamarine;
     display: inline-block;
+    align-content:center;
     }
 
 a {color: black;
 }
 
-nav span {display: inline-block;
+nav span {display: inline;
   padding: 20px 10px;
+
 }
 
 .logo img {width: 70px;
