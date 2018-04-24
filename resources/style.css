@@ -19,8 +19,9 @@ header {display: flex;
 .logo span {color: mediumAquamarine;
 }
 
-a {color: black;
+nav span {color: black;
     display: inline-block;
+    padding: 20px 10px;
 
 
     }
