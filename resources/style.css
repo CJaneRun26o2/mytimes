@@ -12,9 +12,17 @@ header {display: flex;
     }
 
 .logo span {color: mediumAquamarine;
+    display: inline-block;
     }
 
 a {color: black;
 }
 
-nav {display: inline-block;}
+nav span {display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo img {width: 70px;
+    height: 60px;
+    margin-right: 12px;
+  }
