@@ -13,7 +13,7 @@ header {display: flex;
 
 .logo span {color: mediumAquamarine;
     display: inline;
-    align-content: center;
+    align-content: space-around;
     }
 
 a {color: black;
