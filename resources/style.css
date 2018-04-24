@@ -46,6 +46,8 @@ nav span {display: inline-block;
     height: 300px;
     margin-top: 15px;
     color: white;
+    font-family: Georgia;
+    font-weight: bold;    
 }
 
 .lead-story .image-content {
