@@ -15,11 +15,13 @@ header {
 .logo span {color: mediumAquamarine;
     height: 17.6px;
     width: 73.9125px;
-    display: block;
+    display: inline-block;
     }
 
 a {color: black;
 }
+
+p {display: block;}
 
 nav span {display: inline-block;
   padding: 20px 10px;
@@ -37,12 +39,12 @@ nav span {display: inline-block;
     margin-top: 0;
     font-size: 40px;
     text-align: left;
-    border: 3px black;
+
 }
 
 .column-large {width: 630px;
-    border: 3px black;}
+    }
 .column-medium {width: 300px;
-    border: 3px black;}
+    }
 .column-small {width: 240px;
-    border: 3px black;}
+    }
