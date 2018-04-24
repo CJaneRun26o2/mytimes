@@ -63,3 +63,12 @@ nav span {display: inline-block;
     font-weight: bold;
     font-size: 30px;
 }
+
+h2  {display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+  }
