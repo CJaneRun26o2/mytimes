@@ -1,4 +1,4 @@
-header {display: flex;
+header {display: inline-block;
     align-items: center;
     position: fixed;
     z-indez: 1;
