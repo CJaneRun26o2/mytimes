@@ -12,6 +12,11 @@ header {
     position: fixed;
     }
 
+.logo img {width: 70px;
+        height: 60px;
+        margin-right: 12px;
+      }
+
 .logo span {color: mediumAquamarine;
     height: 17.6px;
     width: 73.9125px;
@@ -28,10 +33,12 @@ nav span {display: inline-block;
   padding: 20px 10px;
 }
 
-.logo img {width: 70px;
-    height: 60px;
-    margin-right: 12px;
-  }
+.column.large {width: 630px;
+    }
+.column.medium {width: 300px;
+    }
+.column.small {width: 240px;
+    }
 
 .lead-story .image-content span {margin-left: 20px;
 }
@@ -58,10 +65,3 @@ nav span {display: inline-block;
     height: 300px;
     justify-content: center;
 }
-
-.column-large {width: 630px;
-    }
-.column-medium {width: 300px;
-    }
-.column-small {width: 240px;
-    }
