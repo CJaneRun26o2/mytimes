@@ -1,4 +1,4 @@
-header {display: inline-block;
+#header {display: flex;
     align-items: center;
     position: fixed;
     z-indez: 1;
@@ -11,5 +11,8 @@ header {display: inline-block;
     font-weight: bold;
     }
 
-h1 {color: mediumAquamarine;
+span {color: mediumAquamarine;
 }
+
+.headnavigation {color: black;
+    }
