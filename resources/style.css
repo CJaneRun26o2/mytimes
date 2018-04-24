@@ -15,4 +15,7 @@ span {color: mediumAquamarine;
 }
 
 .headnavigation {color: black;
+    display: inline-block;
+    
+
     }
