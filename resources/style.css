@@ -12,14 +12,14 @@ header {display: flex;
     }
 
 .logo span {color: mediumAquamarine;
-    display: inline-block;
-    align-content:center;
+    display: inline;
+    align-content: center;
     }
 
 a {color: black;
 }
 
-nav span {display: inline;
+nav span {display: inline-block;
   padding: 20px 10px;
 
 }
