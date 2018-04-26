@@ -150,3 +150,40 @@ h2  {display: block;
     width: 240px;
     display: block;
   }
+
+.news-bites .bite {display: block;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: dimgray;
+  }
+
+  img.cookie {height:240px;
+  }
+
+.news-bites h3 {margin-bottom: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .news-bites .bite {display: block;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+    color: dimgray;
+  }
+
+footer {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325 px;
+    background-color: mediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+  }
