@@ -48,8 +48,13 @@ p {display: block;
   }
 
 .column.large {width: 630px;
+    margin-right: 32px;
     }
 .column.medium {width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 1107px;
+    margin-right: 32px;
     }
 .column.small {width: 240px;
     }
