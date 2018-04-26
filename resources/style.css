@@ -88,7 +88,7 @@ h2  {display: block;
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
-    height: 100.8px
+    height: 100.8px;
     width: 300px;
   }
 
@@ -96,14 +96,17 @@ h2  {display: block;
     justify-content: space-between;
     margin-top: 17px;
     width: 630px;
+    height: 565px;
   }
 
 .story {display: flex;
     flex-direction: column;
-    width: 300;
+    width: 300px;
+    height: 565px;
   }
 
-  .stories .text-content {height: 250px;
+.stories .text-content {height: 250px;
+    width: 300px;
   }
 
   .narrative {margin-top: 16px;
