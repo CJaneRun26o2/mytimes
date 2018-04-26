@@ -78,8 +78,21 @@ h2  {display: block;
 
   .fall-cancelled.image-content {
       background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      margin-top: 15px;
   }
 
   .pop-culture.image-content {
       background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+      dispay: flex;
+      flex-direction: column;
+      height: 300px;
+      margin-top: 15px;
+
   }
+
+    .pop-culture.image-content span {
+
+    }
