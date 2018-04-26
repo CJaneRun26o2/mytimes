@@ -1,8 +1,18 @@
+html, body {height: 100%;
+}
+
 body {margin: 0;
+    display: block;
     font-family: Georgia;
     font-size: 17px;
     color: black;
   }
+
+.content {display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
 
 header {display: flex;
     align-items: center;
@@ -47,7 +57,9 @@ p {display: block;
     padding-top: 116px;
   }
 
-.column.large {width: 630px;
+.column.large {display: flex;
+    flex-direction: column;
+    width: 630px;
     margin-right: 32px;
     height: 1107px;
     }
@@ -186,4 +198,13 @@ footer {display: flex;
     margin: auto;
     font-family: Verdana;
     font-size: 12px;
+  }
+
+  footer .title {display: inline-block;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
   }
