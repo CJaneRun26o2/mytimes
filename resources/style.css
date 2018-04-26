@@ -49,14 +49,20 @@ p {display: block;
 
 .column.large {width: 630px;
     margin-right: 32px;
+    height: 1107px;
     }
+
 .column.medium {width: 300px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: 1107px;
     margin-right: 32px;
     }
+
 .column.small {width: 240px;
+    display: flex;
+    flex-direction: column;
+    height: 1107px;
     }
 
 .column {display: flex;
@@ -139,3 +145,8 @@ h2  {display: block;
     height: 300px;
     width: 256px;
 }
+
+.news-bites {height: 342.2px;
+    width: 240px;
+    display: block;
+  }
