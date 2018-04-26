@@ -17,6 +17,12 @@ header {display: flex;
     font-weight: bold;
   }
 
+.logo {display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 30px;
+  }
+
 .logo img {width: 70px;
         height: 60px;
         margin-right: 12px;
@@ -25,14 +31,14 @@ header {display: flex;
 .logo span {color: mediumAquamarine;
 }
 
+nav span {display: inline-block;
+  padding: 20px 10px;
+}
+
 a {color: black;
 }
 
 p {display: block;
-}
-
-nav span {display: inline-block;
-  padding: 20px 10px;
 }
 
 .content {display: flex;
@@ -47,6 +53,11 @@ nav span {display: inline-block;
     }
 .column.small {width: 240px;
     }
+
+.column {display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+  }
 
 .lead-story .image-content span {margin-left: 20px;
 }
@@ -79,15 +90,8 @@ h2  {display: block;
     font-style: normal;
   }
 
-  .narrative {martin-top: 16px;
+  .narrative {margin-top: 16px;
   }
-
-  .image-content{display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 300px;
-      margin-top: 15px;
-      }
 
   .fall-cancelled.image-content {
       background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
