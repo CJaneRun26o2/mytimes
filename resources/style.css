@@ -105,7 +105,8 @@ h2  {display: block;
     height: 565px;
   }
 
-.stories .text-content {height: 250px;
+.stories .text-content {display: block;
+    height: 250px;
     width: 300px;
   }
 
