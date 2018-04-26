@@ -88,6 +88,8 @@ h2  {display: block;
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
+    height: 100.8px
+    width: 300px;
   }
 
   .narrative {margin-top: 16px;
