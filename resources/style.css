@@ -92,6 +92,19 @@ h2  {display: block;
     width: 300px;
   }
 
+.stories {display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+  }
+
+.story {display: flex;
+    flex-direction: column;
+    width: 300;
+  }
+
+  .stories .text-content {height: 250px;
+  }
+
   .narrative {margin-top: 16px;
     margin-bottom: 17px;
     height: 192px;
