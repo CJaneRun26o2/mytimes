@@ -91,6 +91,9 @@ h2  {display: block;
   }
 
   .narrative {margin-top: 16px;
+    margin-bottom: 17px;
+    height: 96px;
+    width: 300px;
   }
 
   .fall-cancelled.image-content {
